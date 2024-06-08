@@ -13,6 +13,7 @@ Sebuah aplikasi website untuk mengelola list proyekan dalam sebuah tim untuk kep
 ### Frontend
 - **ReactJS**: Perpustakaan UI untuk membangun antarmuka pengguna
 - **Tailwind CSS**: Kerangka kerja CSS berbasis utilitas
+- **Vite**: Alat pengembangan front-end generasi berikutnya untuk pengembangan yang lebih cepat
 
 ### Backend
 - **Laravel 11**: Kerangka kerja PHP untuk pengembangan web yang elegan dan ekspresif
@@ -30,8 +31,6 @@ Sebuah aplikasi website untuk mengelola list proyekan dalam sebuah tim untuk kep
 ![Dokumentasi Halaman](Dokumentasi.png)
 
 ## Cara Instalasi
-Instruksi langkah demi langkah untuk menginstal proyek Anda secara lokal.
-
 ```bash
 # Clone repository ini
 git clone https://github.com/username/repository-name.git
@@ -42,11 +41,14 @@ cd repository-name
 # Instal dependensi
 npm install
 
-# Jalankan server kodenya secara live
+# Jalankan server artisan
+php artisan serve
+
+# Jalankan server frontendnya secara live
 npm run dev --watch
 
-# Buka url servernya
-http://localhost:5173/
+# Buka url server artisannya
+http://localhost:8000/
 
 ```
 
