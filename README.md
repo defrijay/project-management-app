@@ -1,66 +1,58 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Project Management App
+Sebuah aplikasi website untuk mengelola list proyekan dalam sebuah tim untuk kepentingan kerjaan dan pembagian tugas untuk masing - masing orang yang terlibat dalam proyekan tersebut
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
 
-## About Laravel
+## Daftar Isi
+- [Tumpukan Teknologi](#tumpukan-teknologi)
+- [Fitur](#fitur)
+- [Dokumentasi Halaman](#dokumentasi-halaman)
+- [Cara Instalasi](#cara-instalasi)
+- [Cara Penggunaan](#cara-penggunaan)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web tasks, such as:
+## Tumpukan Teknologi
+### Frontend
+- **ReactJS**: Perpustakaan UI untuk membangun antarmuka pengguna
+- **Tailwind CSS**: Kerangka kerja CSS berbasis utilitas
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+### Backend
+- **Laravel 11**: Kerangka kerja PHP untuk pengembangan web yang elegan dan ekspresif
+- **Laravel Breeze**: Alat yang ringan untuk membuat aplikasi Laravel dengan autentikasi default yang sederhana
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+### DBMS
+- **MySQL**: Sistem manajemen basis data relasional open-source
 
-## Learning Laravel
+## Fitur
+- Merangkum Website Artikel : Merangkum isi keseluruhan isi website artikel agar menghemat waktu dengan tahu isinya secara umum.
+- Menampilkan Hisotri Pencarian : Menampilkan histori pencarian agar dapat melihat kembali isi webiste yang telah dicari
+- Menghapus Histori Pencarian : Menghapus histori pencarian agar dapat melihat histori yang diinginkan saja
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Dokumentasi Halaman
+![Dokumentasi Halaman](Dokumentasi.png)
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## Cara Instalasi
+Instruksi langkah demi langkah untuk menginstal proyek Anda secara lokal.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+```bash
+# Clone repository ini
+git clone https://github.com/username/repository-name.git
 
-## Laravel Sponsors
+# Masuk ke direktori proyek
+cd repository-name
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+# Instal dependensi
+npm install
 
-### Premium Partners
+# Jalankan server kodenya secara live
+npm run dev --watch
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+# Buka url servernya
+http://localhost:5173/
 
-## Contributing
+```
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## Cara Penggunaan
+1. Cari website artikel dengan contoh link url ini ```https://en.wikipedia.org/wiki/Avatar:_The_Last_Airbender```
+2. Paste url tersebut ke kolom pencarian
+3. Hasil akan tampil di kolom histoti
 
-## Code of Conduct
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
