@@ -66,7 +66,7 @@ export default function Login({ status, canResetPassword }) {
                     <InputError message={errors.password} className="mt-2" />
                 </div>
 
-                <div className="block mt-4">
+                <div className="block mt-4 d-flex justify-between items-center">
                     <label className="flex items-center">
                         <Checkbox
                             name="remember"
@@ -75,6 +75,7 @@ export default function Login({ status, canResetPassword }) {
                         />
                         <span className="ms-2 text-sm text-gray-600 dark:text-gray-400">Remember me</span>
                     </label>
+                    <a href="/register" className="text-sm text-gray-600 dark:text-gray-400 text-right">Don't have an account?</a>
                 </div>
 
                 <div className="flex items-center justify-end mt-4">
